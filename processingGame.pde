@@ -68,7 +68,7 @@ void draw() {
       poisonD.display();
       if (dist(x, y, poisonD.x, poisonD.y)<radius) { // checking if Pacman is over the poison 
         poison.remove(i);
-        radius = radius - 5; // decreasing radius with every poison eaten
+        radius = radius - 4; // decreasing radius with every poison eaten
         lives = lives - 1; // numbers of lives 
       }
     }
